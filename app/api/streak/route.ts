@@ -2,7 +2,6 @@
 import { NextResponse } from 'next/server';
 import { fetchGitHubContributions } from '../../../lib/github';
 import { calculateStreak } from '../../../lib/calculate';
-import { generateSVG, escapeXML } from '../../../lib/svg/generator';
 import { generateNotFoundSVG, generateSVG, escapeXML } from '../../../lib/svg/generator';
 import { getSecondsUntilUTCMidnight, getSecondsUntilMidnightInTimezone } from '../../../utils/time';
 import type { BadgeParams } from '../../../types';
